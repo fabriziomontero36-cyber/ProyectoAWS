@@ -1,0 +1,23 @@
+﻿# Terraform
+ .terraform/
+ *.tfstate
+ *.tfstate.*
+ *.tfplan
+ crash*.log
+ override.tf
+ *_override.tf
+ .terraformrc
+ terraform.rc
+ # Java / Maven
+ target/
+ *.class
+ # Secretos y entorno local
+ .env
+ *.pem
+ .aws/
+ # Editor / SO
+ .vscode/
+ .idea/
+ *.iml
+ .DS_Store
+ Thumbs.db
